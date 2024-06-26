@@ -10,11 +10,15 @@
       
     }  
     
-   
     
     .header{
-        background-color: whitesmoke;
+        background-color: white;
         padding: 10px;
+        border-top: rgb(211, 209, 209) 2px solid;
+        border-bottom: rgb(211, 209, 209) 2px solid;
+        position: sticky;
+        top: 0;
+    
     }
     ul,li{
         
@@ -73,6 +77,8 @@ margin-left: 5%;
     margin-left: 20px;
     background-color: oldlace;
 }
+
+   
 .hert{
    display: inline-block;
    width: 50px;
@@ -97,4 +103,51 @@ margin: 25px 0px 0px 86px;
 .check img{
     width: 30px;
     height: 30px;
+}
+.sec1{
+    background-color: whitesmoke;
+    padding: 30px;
+    
+}
+.imgi{
+    
+    padding: 30px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 40px;
+   
+}
+.imgi img{
+    width: 100%;
+    float: left;
+}
+.des{
+    width: 450px;
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+    margin-left: 160px;
+}
+.des span,h1,p{
+    text-align: center;
+}
+.des span{
+    color: rgb(214, 124, 50);
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 150px;
+    
+}
+.des h1{
+    color: rgb(128, 40, 123);
+    font-size: 30px;
+    margin: 20px 0px 10px;
+
+}
+.des p{
+    color: black;
+    font-size: 18px;
+    font-weight: 350;
+    
 }
