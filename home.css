@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  body{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      
+    }  
+    
+   
+    
+    .header{
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+    ul,li{
+        
+        display: inline;
+       
+    }
+    ul{
+    
+     margin-left: 70%;
+     
+    }
+    .sear ul li{
+        margin-left: 5px;
+    }
+    .sear ul li a{
+        color: black;
+        font-weight: bold;
+    }
+
+.searc ul{
+margin-left: 5%;
+}
+.searc ul li{
+    
+    margin-left: 20px;
+}
+.searc ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.searc h1{
+    color: #80945cd2;
+    font-size: 40px;
+    display: inline;
+    padding: 20px;
+    
+    
+}
+.searc h1 span{
+    color: black;
+}
+.searc input{
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 20px;
+    background-color: oldlace;
+}
+.hert{
+    display: inline-block;
+   width: 50px;
+   height: 50px;
+   
+   
+}
+.hert img{
+    width: 30px;
+    height: 30px;
+    margin-left:30px ;
+    margin-top: 20px;
+}
+
