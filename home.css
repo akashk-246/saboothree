@@ -23,7 +23,7 @@
     }
     ul{
     
-     margin-left: 70%;
+     margin-left: 60%;
      
     }
     .sear ul li{
@@ -31,7 +31,7 @@
     }
     .sear ul li a{
         color: black;
-        font-weight: bold;
+        font-weight: 300;
     }
 
 .searc ul{
@@ -43,19 +43,28 @@ margin-left: 5%;
 }
 .searc ul li a{
     color: black;
-    font-weight: bold;
+    font-weight: 500;
     text-decoration: none;
+
+}
+.logo{
+    display: inline-block;
+    width: 350px;
+    height: 45px;
+   
 }
 .searc h1{
-    color: #80945cd2;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     display: inline;
     padding: 20px;
-    
-    
+    position: absolute;
+    top: 0;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
 }
 .searc h1 span{
-    color: black;
+    color: rgb(190, 4, 144);
 }
 .searc input{
     width: 250px;
@@ -65,16 +74,27 @@ margin-left: 5%;
     background-color: oldlace;
 }
 .hert{
-    display: inline-block;
+   display: inline-block;
    width: 50px;
    height: 50px;
-   
+   position: absolute;
+   margin:25px 0px 0px 30px ;
    
 }
+   
+
 .hert img{
     width: 30px;
     height: 30px;
-    margin-left:30px ;
-    margin-top: 20px;
+}  
+.check{
+display: inline-block;
+width: 50px;
+height: 50px;
+position: absolute;
+margin: 25px 0px 0px 86px;
+}   
+.check img{
+    width: 30px;
+    height: 30px;
 }
-
