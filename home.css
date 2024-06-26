@@ -107,6 +107,8 @@ margin: 25px 0px 0px 86px;
 .sec1{
     background-color: whitesmoke;
     padding: 30px;
+    padding-bottom: 60px;
+
     
 }
 .imgi{
@@ -120,6 +122,12 @@ margin: 25px 0px 0px 86px;
 .imgi img{
     width: 100%;
     float: left;
+}
+.imgi img:hover{
+    width: 110%;
+    scale: 1;
+    transition: 1s;
+    
 }
 .des{
     width: 450px;
@@ -150,4 +158,20 @@ margin: 25px 0px 0px 86px;
     font-size: 18px;
     font-weight: 350;
     
+}
+.des button{
+   position: absolute;
+   margin: 20px 0px 0px 180px;
+   border-radius: 5px 5px;
+   font-size: 13px;
+   padding: 10px;
+   border-style: none;
+   background-color: rgb(85, 172, 199);
+}
+
+.des button:hover{
+    border: rgb(15, 7, 7) 2px solid ;
+    background-color: aqua;
+    transition: 0.3s;
+    cursor: pointer;
 }
